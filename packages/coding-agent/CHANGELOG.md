@@ -104,7 +104,7 @@
 - Fixed the IDA integration on Windows: the IDA worker crashed after its first response, and timing out or aborting an IDA request killed the worker instead of interrupting it ([#14186](https://github.com/can1357/oh-my-pi/pull/14186) by [@H4vC](https://github.com/H4vC))
 ### Added
 
-- Added the `cost.displayCurrency` setting (`USD` or `CNY`) for the status-line `cost` segment: it shows session spend in the active model's own published card for that currency (keeping the peak/off-peak arrow), and keeps the model's base card and symbol when it publishes no card there or when only part of the session was priced through it, so the chip never labels base-currency spend with a foreign symbol.
+- Added the `cost.displayCurrency` setting (`USD` or `CNY`) for the status-line `cost` segment: it shows session spend in the active model's own published card for that currency (keeping the peak/off-peak arrow), and keeps the model's base card and symbol when it publishes no card there or when only part of the session was priced through it, so the chip never labels base-currency spend with a foreign symbol ([#14151](https://github.com/can1357/oh-my-pi/pull/14151) by [@WICKII](https://github.com/WICKII)).
 
 ## [18.5.0] - 2026-10-03
 
